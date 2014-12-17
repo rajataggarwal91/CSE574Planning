@@ -1,0 +1,11 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\Rajat\Documents\MATLAB\Flood avoidance using planning for dam management - Rajat Aggarwal - Source code\FloodControl\for_redistribution" />
+  <mkdir dir="C:\Users\Rajat\Documents\MATLAB\Flood avoidance using planning for dam management - Rajat Aggarwal - Source code\FloodControl\for_testing" />
+</ant>
+mcc -C -o FloodControl -W WinMain:FloodControl -T link:exe -d 'C:\Users\Rajat\Documents\MATLAB\Flood avoidance using planning for dam management - Rajat Aggarwal - Source code\FloodControl\for_testing' -v 'C:\Users\Rajat\Documents\MATLAB\Flood avoidance using planning for dam management - Rajat Aggarwal - Source code\MainFile.m' 
+Compiler version: 5.0 (R2013b)
+Dependency analysis by DEPFUN.
+Processing C:\Program Files\MATLAB\R2013b\toolbox\matlab\win64\mcc.enc
+Processing C:\Program Files\MATLAB\R2013b\toolbox\stats\win64\mcc.enc
+Processing C:\Program Files\MATLAB\R2013b\toolbox\shared\spcuilib\win64\mcc.enc
